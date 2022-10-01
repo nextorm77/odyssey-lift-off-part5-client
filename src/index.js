@@ -6,7 +6,8 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
   // uri: 'http://localhost:4000',
-  uri: "https://svr-catstronats.herokuapp.com/",
+  // uri: "https://svr-catstronats.herokuapp.com/",
+  uri: "https://odyssey-lift-off-part5-server-4s8m.onrender.com/",
   cache: new InMemoryCache(),
 });
 
